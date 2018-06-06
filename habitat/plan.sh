@@ -1,7 +1,7 @@
 pkg_name=sample-node-app
 pkg_origin=nrycar
 pkg_scaffolding="core/scaffolding-node"
-pkg_version="1.0.4"
+pkg_version="1.0.5"
 
 declare -A scaffolding_env
 
