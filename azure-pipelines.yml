@@ -19,5 +19,5 @@ steps:
     taskAction: 'install'
 
 - script: |
-    hab pkg list
+    /tmp/hab pkg list
   displayName: 'Test hab binary'
