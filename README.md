@@ -1,6 +1,6 @@
 # Habitat Sample Node App
 
-Welcome to the Habitat Sample Node App!
+Welcome to the Habitat Sample Node App! Bloop!
 
 ### Follow the demo instructions
 
