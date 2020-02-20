@@ -37,7 +37,7 @@ pipeline {
         }
         stage('Check Dev Health') {
             steps {
-                sh '/usr/local/bin/health_check.sh sample-node-app sn dev'
+                sh '/usr/local/bin/health_check.sh sample-node-app sn dev unstable'
             }
         }
         stage('Promote to prod-canary Channel') {
