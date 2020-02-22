@@ -1,8 +1,13 @@
 pkg_name=sample-node-app
 pkg_origin=nrycar
 pkg_scaffolding="core/scaffolding-node"
-pkg_version="2.0.1"
+pkg_version="3.0.1"
 pkg_deps=(nrycar/libhelloworld)
+
+pkg_exports=(
+  [port]=app.port
+)
+pkg_exposes=(port)
 
 declare -A scaffolding_env
 
